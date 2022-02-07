@@ -1,6 +1,7 @@
+import { useWindowSize } from "../../custom_hooks/useWinowSize";
 
 function NavbarBase() {
-
+    const [height, width] = useWindowSize();
 
     return (
         <>
@@ -10,7 +11,6 @@ function NavbarBase() {
             </div>
 
             <div className="navbar-menu-container">
-                
             </div>
         </div>
         </>
