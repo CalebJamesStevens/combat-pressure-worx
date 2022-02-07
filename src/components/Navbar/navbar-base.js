@@ -1,4 +1,6 @@
 import { useWindowSize } from "../../custom_hooks/useWinowSize";
+import DesktopMenu from "./desktop-menu";
+import MobileMenu from "./mobile-menu";
 
 function NavbarBase() {
     const [height, width] = useWindowSize();
@@ -11,6 +13,8 @@ function NavbarBase() {
             </div>
 
             <div className="navbar-menu-container">
+                {width => 950 && <DesktopMenu/>}
+                {width < 950 && <MobileMenu/>}
             </div>
         </div>
         </>
