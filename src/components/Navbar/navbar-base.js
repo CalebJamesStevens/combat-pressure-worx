@@ -13,7 +13,7 @@ function NavbarBase() {
             </div>
 
             <div className="navbar-menu-container">
-                {width => 950 && <DesktopMenu/>}
+                {width >= 950 && <DesktopMenu/>}
                 {width < 950 && <MobileMenu/>}
             </div>
         </div>
