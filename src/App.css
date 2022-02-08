@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+:root {
+    --primary-green: #6EA174; 
+    --secondary-tan: #E1D798; 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.react-icon {
+    width: calc(var(--icon-size) * 1rem);
+    height: auto;
+}
+
+/*MOUSE OVER EVENTS*/
+
+.clickable:hover {
+    cursor: pointer;
+}
+
+/* NAVBAR */
+.navbar-container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--primary-green);
+}
+
+#tel-link {
+    font-weight: 700;
+}
