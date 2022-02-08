@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/combat-pressure-worx/static/css/main.37518274.css",
+    "main.js": "/combat-pressure-worx/static/js/main.e76b29f4.js",
+    "static/js/787.73c455aa.chunk.js": "/combat-pressure-worx/static/js/787.73c455aa.chunk.js",
+    "index.html": "/combat-pressure-worx/index.html",
+    "main.37518274.css.map": "/combat-pressure-worx/static/css/main.37518274.css.map",
+    "main.e76b29f4.js.map": "/combat-pressure-worx/static/js/main.e76b29f4.js.map",
+    "787.73c455aa.chunk.js.map": "/combat-pressure-worx/static/js/787.73c455aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37518274.css",
+    "static/js/main.e76b29f4.js"
+  ]
+}
