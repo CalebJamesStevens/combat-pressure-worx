@@ -147,11 +147,43 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4rem;
-    margin: 1rem;
+    margin-block: 5rem;
 }
 
 .logo-header {
-    font-size: 2.5rem;
+    text-align: center;
+    font-size: clamp(1rem, 1rem + 2vw, 3rem);
     font-weight: 900;
 }
+
+.logo-sub-header {
+    text-align: center;
+    font-size: clamp(.5rem, .5rem + 2vw, 1.5rem);
+
+}
+
+/* Our Story Section */
+
+.our-story-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--secondary-tan);
+}
+
+.our-story-header {
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+.our-story-paragraph-container {
+    display: flex;
+}
+
+.our-story-paragraph {
+    margin: 2rem;
+    max-width: 50rem;
+}
+
