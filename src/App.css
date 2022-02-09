@@ -11,7 +11,9 @@ img {
 
 :root {
     --primary-green: #6EA174; 
-    --secondary-tan: #E1D798; 
+    --secondary-tan: #E1D798;
+    --secondary-grey: #424756;
+     
 }
 
 a {
@@ -219,4 +221,33 @@ a {
 
 .carousel-sliders {
     margin-inline: clamp(1rem, 5%, 5rem);
+}
+
+/* Footer Section */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: var(--secondary-grey);
+}
+
+.footer-contacts {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    column-gap: 2rem;
+}
+
+.footer-contact-item {
+    justify-self: center;
+}
+
+.footer-menu {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
