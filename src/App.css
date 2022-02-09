@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+}
+
 :root {
     --primary-green: #6EA174; 
     --secondary-tan: #E1D798; 
@@ -17,7 +21,7 @@ a {
 
 .react-icon {
     width: calc(var(--icon-size) * 1rem);
-    height: auto;
+    height: calc(var(--icon-size) * 1rem);
 }
 
 /*MOUSE OVER EVENTS*/
@@ -187,3 +191,32 @@ a {
     max-width: 50rem;
 }
 
+/* Our Work Section*/
+
+.our-work-container {
+    margin-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-work-header {
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+.work-image-carousel-container {
+    display: flex;
+    align-items: center;
+    margin-block: 3rem;
+}
+
+.work-images-container {
+    max-width: 900px;
+}
+
+.carousel-sliders {
+    margin-inline: clamp(1rem, 5%, 5rem);
+}
