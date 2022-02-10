@@ -1,4 +1,5 @@
 import './App.css';
+import ContactUs from './components/contact-us/contact-us';
 import HeaderSection from './components/header-section';
 import NavbarBase from './components/Navbar/navbar-base';
 import OurStory from './components/our-story/our-story';
@@ -12,6 +13,7 @@ function App() {
       <HeaderSection></HeaderSection>
       <OurStory></OurStory>
       <OurWork></OurWork>
+      <ContactUs/>
       <Footer/>
     </div>
   );
