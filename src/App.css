@@ -223,6 +223,9 @@ a {
     margin-inline: clamp(1rem, 5%, 5rem);
 }
 
+.work-pic {
+}
+
 /* Footer Section */
 
 .footer-container {
