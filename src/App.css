@@ -223,28 +223,22 @@ a {
     margin-inline: clamp(1rem, 5%, 5rem);
 }
 
-.work-pic {
-}
-
 /* Footer Section */
 
 .footer-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     color: white;
     background-color: var(--secondary-grey);
+    padding-block: 3rem;
+    font-size: clamp(.5rem, 1rem + 1vw, 2rem);
 }
 
 .footer-contacts {
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    column-gap: 2rem;
-}
-
-.footer-contact-item {
-    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .footer-menu {
