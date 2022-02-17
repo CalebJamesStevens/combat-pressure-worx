@@ -154,7 +154,6 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-block: 5rem;
 }
 
 .logo-header {
@@ -162,6 +161,9 @@ a {
     font-size: clamp(1rem, 1rem + 2vw, 3rem);
     font-weight: 900;
 }
+
+
+
 
 .logo-sub-header {
     text-align: center;
@@ -178,7 +180,11 @@ a {
     padding: 1rem;
     background-color: var(--secondary-tan);
 }
-
+.header-logo {
+    margin-top: 2rem;
+    max-width: 30rem;
+    
+}
 .our-story-header {
     font-weight: 700;
     font-size: 1.4rem;
@@ -186,13 +192,33 @@ a {
 }
 
 .our-story-paragraph-container {
+    max-width: 80rem;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .our-story-paragraph {
+    line-height: 1.8rem;
+    text-align: center;
     margin: 2rem;
-    max-width: 50rem;
+    max-width: 60%;
 }
+@media (max-width: 650px)  {
+    .header-logo {
+        max-width: 90%;
+        
+    }
+
+    .our-story-paragraph {
+        line-height: 1.6rem;
+        text-align: start;
+        margin: 2rem;
+        max-width: 90%;
+    }
+    
+}
+
 
 /* Our Work Section*/
 

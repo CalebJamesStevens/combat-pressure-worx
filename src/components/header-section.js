@@ -1,9 +1,10 @@
-function HeaderSection() {
 
+import {ReactComponent as Logo1} from '../logos/logo1.svg'
+
+function HeaderSection() {
     return (
         <div className="header-section-container">
-            <div className="logo-header">Combat Pressure Worx</div>
-            <div className="logo-sub-header">Veteran Owned And Operated.</div>
+            
         </div>
     )
 }
