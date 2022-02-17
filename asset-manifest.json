@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/combat-pressure-worx/static/css/main.82ab9fbd.css",
-    "main.js": "/combat-pressure-worx/static/js/main.66777e98.js",
+    "main.css": "/combat-pressure-worx/static/css/main.bceaacf6.css",
+    "main.js": "/combat-pressure-worx/static/js/main.248d17dd.js",
     "static/js/787.73c455aa.chunk.js": "/combat-pressure-worx/static/js/787.73c455aa.chunk.js",
     "static/media/before1.jpeg": "/combat-pressure-worx/static/media/before1.6bece7e4e426516b379d.jpeg",
     "static/media/after1.jpeg": "/combat-pressure-worx/static/media/after1.f6baa210728776061eaa.jpeg",
+    "static/media/logo1.svg": "/combat-pressure-worx/static/media/logo1.6b1ffcd7271aa04108d8ad26edbfa285.svg",
     "index.html": "/combat-pressure-worx/index.html",
-    "main.82ab9fbd.css.map": "/combat-pressure-worx/static/css/main.82ab9fbd.css.map",
-    "main.66777e98.js.map": "/combat-pressure-worx/static/js/main.66777e98.js.map",
+    "main.bceaacf6.css.map": "/combat-pressure-worx/static/css/main.bceaacf6.css.map",
+    "main.248d17dd.js.map": "/combat-pressure-worx/static/js/main.248d17dd.js.map",
     "787.73c455aa.chunk.js.map": "/combat-pressure-worx/static/js/787.73c455aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82ab9fbd.css",
-    "static/js/main.66777e98.js"
+    "static/css/main.bceaacf6.css",
+    "static/js/main.248d17dd.js"
   ]
 }
