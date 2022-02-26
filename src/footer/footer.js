@@ -22,10 +22,10 @@ function Footer() {
           </div>
         </div>
         <div className='footer-menu'>
-          <a href='contact'>
+          <a href='#contact'>
             <div className='footer-menu-item'>Contact</div>
           </a>
-          <a href='out-story'>
+          <a href='#our-story'>
             <div className='footer-menu-item'>About Us</div>
           </a>
           <div className='footer-menu-item'>Terms & Conditions</div>
